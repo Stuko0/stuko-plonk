@@ -69,9 +69,15 @@ class AppSettings {
     Object? ragEmbeddingModelId = _sentinel,
   }) {
     return AppSettings(
-      modelsDir: identical(modelsDir, _sentinel) ? this.modelsDir : modelsDir as String?,
-      activeProviderId: identical(activeProviderId, _sentinel) ? this.activeProviderId : activeProviderId as String?,
-      activeModelId: identical(activeModelId, _sentinel) ? this.activeModelId : activeModelId as String?,
+      modelsDir: identical(modelsDir, _sentinel)
+          ? this.modelsDir
+          : modelsDir as String?,
+      activeProviderId: identical(activeProviderId, _sentinel)
+          ? this.activeProviderId
+          : activeProviderId as String?,
+      activeModelId: identical(activeModelId, _sentinel)
+          ? this.activeModelId
+          : activeModelId as String?,
       toolMode: toolMode ?? this.toolMode,
       themeMode: themeMode ?? this.themeMode,
       inferenceBackend: inferenceBackend ?? this.inferenceBackend,
@@ -82,7 +88,9 @@ class AppSettings {
       ragChunkSize: ragChunkSize ?? this.ragChunkSize,
       ragChunkOverlap: ragChunkOverlap ?? this.ragChunkOverlap,
       ragTopK: ragTopK ?? this.ragTopK,
-      ragEmbeddingModelId: identical(ragEmbeddingModelId, _sentinel) ? this.ragEmbeddingModelId : ragEmbeddingModelId as String?,
+      ragEmbeddingModelId: identical(ragEmbeddingModelId, _sentinel)
+          ? this.ragEmbeddingModelId
+          : ragEmbeddingModelId as String?,
     );
   }
 }

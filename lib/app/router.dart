@@ -37,10 +37,7 @@ abstract final class AppRouter {
         ],
       ),
     ],
-    errorBuilder: (context, state) => Scaffold(
-      body: Center(
-        child: Text('Route not found: ${state.uri}'),
-      ),
-    ),
+    errorBuilder: (context, state) =>
+        Scaffold(body: Center(child: Text('Route not found: ${state.uri}'))),
   );
 }
