@@ -1,0 +1,81 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+pubspec.lock
+.metadata
+.ios/
+.android/
+*.iml
+*.ipr
+*.iws
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Flutter generated
+**/generated_plugin_registrant.cc
+**/generated_plugin_registrant.h
+**/generated_plugins.cmake
+
+# Android
+android/.gradle/
+android/captures/
+android/local.properties
+android/key.properties
+android/**/GeneratedPluginRegistrant.java
+android/app/release/
+android/app/debug/
+*.keystore
+!debug.keystore
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Generated.xcconfig
+ios/Runner/GeneratedPluginRegistrant.*
+ios/ServiceDefinitions.json
+ios/Runner.xcworkspace/xcuserdata/
+ios/Runner.xcodeproj/xcuserdata/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Coverage
+coverage/
+
+# Models downloaded by app at runtime
+models/
+*.gguf
+*.bin
+*.safetensors
+
+# Drift generated
+**/database.g.dart
+**/*.g.dart
+
+# Local env
+.env
+.env.local
+
+# Supabase / Firebase / cloud
+google-services.json
+GoogleService-Info.plist
+
+# Logs
+*.log
