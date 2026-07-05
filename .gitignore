@@ -59,8 +59,8 @@ ios/Runner.xcodeproj/xcuserdata/
 # Coverage
 coverage/
 
-# Models downloaded by app at runtime
-models/
+# Models downloaded by app at runtime (do not match feature folders)
+/models/
 *.gguf
 *.bin
 *.safetensors
